@@ -1,0 +1,15 @@
+{
+  "name": "node-file-manager",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:n": "node src/index.js --username=Andrei"
+  },
+  "author": "Andrei Paleshka",
+  "license": "ISC"
+}
