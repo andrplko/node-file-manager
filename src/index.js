@@ -68,10 +68,10 @@ const startApplication = () => {
       await calculateHash(input, homeDirectory);
       lineReader.prompt();
     } else if (input.startsWith('compress ')) {
-      compress(input, homeDirectory);
+      await compress(input, homeDirectory);
       lineReader.prompt();
     } else if (input.startsWith('decompress ')) {
-      decompress(input, homeDirectory);
+      await decompress(input, homeDirectory);
       lineReader.prompt();
     } else {
       console.log('Invalid input\n');
