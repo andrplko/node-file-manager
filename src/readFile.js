@@ -15,7 +15,7 @@ const read = (input) => {
 
   stream.on('error', () => {
     console.error('\nOperation failed');
-})
+  })
 }
 
 export { read };
